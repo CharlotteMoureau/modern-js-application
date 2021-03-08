@@ -1,3 +1,5 @@
+let characterId = new Array();
+
 // clone character's cards
 async function displayCharactersCards() {
     try {
@@ -18,10 +20,13 @@ async function displayCharactersCards() {
             target.appendChild(cardClone);
 
             characterId.push(id);
+            return characterId;
         });
     } catch (error) {
         console.error(error);
     }
 }
 
-export { displayCharactersCards };
+let newCharacterId = characterId;
+
+export { displayCharactersCards, newCharacterId };

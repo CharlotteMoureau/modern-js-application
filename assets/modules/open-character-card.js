@@ -1,6 +1,10 @@
 // open character card
 function openCharacterCard() {
     const longDescriptionButton = document.getElementsByClassName('long-description-button');
+    const cardName = document.getElementsByClassName('name-for-modal');
+    const shortDescription = document.getElementsByClassName('short-for-modal');
+    const longDescription = document.getElementsByClassName('long-for-modal');
+    const cardImage = document.getElementsByClassName('image-for-modal');
 
     for (let i = 0; i < longDescriptionButton.length; i++) {
         longDescriptionButton[i].addEventListener('click', function () {

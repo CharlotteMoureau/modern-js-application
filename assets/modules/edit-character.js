@@ -1,10 +1,12 @@
+import { newCharacterId } from "./display-characters-cards.js";
+
 //edit character
 async function editCharacter() {
     const outerEditButton = document.getElementsByClassName('outer-edit');
 
     for (let i = 0; i < outerEditButton.length; i++) {
         outerEditButton[i].addEventListener('click', async () => {
-            const id = characterId[i];
+            const id = newCharacterId[i];
             try {
                 const response = await fetch(`https://character-database.becode.xyz/characters/${id}`);
                 const character = await response.json();

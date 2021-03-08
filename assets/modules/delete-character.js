@@ -1,3 +1,5 @@
+import { newCharacterId } from "./display-characters-cards.js";
+
 // delete a character
 function deleteCharacter() {
     const deleteButton = document.getElementsByClassName('delete');
@@ -6,7 +8,7 @@ function deleteCharacter() {
         deleteButton[i].addEventListener('click', async function () {
 
             if (confirm('Are you sure you want to delete this character?')) {
-                const id = characterId[i];
+                const id = newCharacterId[i];
 
                 try {
                     const response = await fetch(`https://character-database.becode.xyz/characters/${id}`, {
