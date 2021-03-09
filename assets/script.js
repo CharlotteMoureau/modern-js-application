@@ -1,5 +1,4 @@
 const characterId = new Array();
-let image = "";
 const cardName = document.getElementsByClassName('name-for-modal');
 const shortDescription = document.getElementsByClassName('short-for-modal');
 const longDescription = document.getElementsByClassName('long-for-modal');
@@ -31,14 +30,14 @@ async function displayCharactersCards() {
   }
 }
 
-let callAllFunctions = displayCharactersCards();
-
-callAllFunctions.then(() => {
+displayCharactersCards().then(() => {
   openCharacterCard();
   createImage();
   createCharacter();
   editCharacter();
   deleteCharacter();
+}).catch((error) => {
+  console.error(error);
 })
 
 // open character card

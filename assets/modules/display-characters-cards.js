@@ -20,7 +20,6 @@ async function displayCharactersCards() {
             target.appendChild(cardClone);
 
             characterId.push(id);
-            return characterId;
         });
     } catch (error) {
         console.error(error);

@@ -14,7 +14,6 @@ async function editCharacter() {
                 document.getElementById('input-name').value = character.name;
                 document.getElementById('input-short-description').value = character.shortDescription;
                 document.getElementById('input-long-description').textContent = character.description;
-                image = character.image;
 
                 document.getElementById('submit').addEventListener('click', async () => {
                     const inputs = Array.from(document.getElementsByClassName("inputs"));
