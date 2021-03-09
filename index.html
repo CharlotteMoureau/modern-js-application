@@ -13,12 +13,16 @@
   <!-- Bootstrap core CSS -->
   <link href="bootstrap/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="bootstrap/css/heroic-features.css" rel="stylesheet">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 
   <!-- link bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="bootstrap/css/heroic-features.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +33,7 @@
     <header class="jumbotron my-4">
       <h1 class="display-3">Welcome comic fan!</h1>
       <p class="lead">Here you will see cards of your favourite comics' characters that you can create, edit and delete.
-        Click "show whole card" to see a complete description of the chosen character.</p>
+        Click the icon in the top-right corner to see a complete description of the chosen character.</p>
       <a href="#" class="btn btn-primary btn-lg" id="create" data-toggle="modal" data-target="#create-modal">Create a
         character</a>
 
@@ -38,18 +42,21 @@
     <!-- Page Features -->
 
     <!-- Card -->
-    <div class="row text-center " id="target">
+    <div class="row text-center" id="target">
 
       <template id="template">
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card h-100 ">
-            <img class="card-img-top w-75 mx-auto image-for-modal" id="image" src="http://placehold.it/500x325" alt="">
+            <div class="icons">
+              <i class="fas fa-thumbtack pt-2"></i>
+              <i class="fas fa-expand-alt p-2 long-description-button" data-toggle="modal"
+                data-target="#open-modal"></i>
+            </div>
+            <img class="card-img-top w-75 mx-auto pt-2 image-for-modal" id="image" src="http://placehold.it/500x325"
+              alt="">
             <div class="card-body">
               <h4 class="card-title name-for-modal" id="name"> </h4>
               <p class="card-text short-for-modal" id="short-description"> </p>
-              <a class="btn btn-white border border-secondary long-description-button" data-toggle="modal"
-                data-target="#open-modal">Show
-                whole card</a>
               <p class="card-text text-justify pt-3 long-for-modal" id="long-description" style="display: none;"> </p>
             </div>
             <div class="card-footer">
@@ -147,7 +154,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
-  <script type="module" src="assets/index.js"></script>
+  <script src="assets/script.js"></script>
 </body>
 
 </html>
