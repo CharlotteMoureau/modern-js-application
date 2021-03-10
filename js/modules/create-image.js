@@ -1,5 +1,3 @@
-let image = ''
-
 // create image
 async function createImage() {
     document.querySelector('#input-image').addEventListener('change', (element) => {

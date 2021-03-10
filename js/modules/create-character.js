@@ -1,5 +1,3 @@
-const image = ''
-
 // create a character
 async function createCharacter() {
     document.getElementById('create').addEventListener('click', async () => {
