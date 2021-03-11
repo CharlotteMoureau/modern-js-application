@@ -1,6 +1,6 @@
 # modern-js-application
 
-This was a solo project carried out from the 08th to the 11th of March 2021 as part of the BeCode Liège's Junior Web Developer program. We were tasked to adapt our code from a [former project](https://github.com/CharlotteMoureau/character-manager-js) to fit the organisation of a "modern Js application". I chose to redo the design to fit my personal taste, using a Bootstrap base.
+This was a solo project carried out from the 08th to the 11th of March 2021 as part of the BeCode Liège's Junior Web Developer program. We were tasked to adapt our code from a [former project](https://github.com/CharlotteMoureau/character-manager-js) to fit the organization of a "modern Js application". I chose to redo the design to fit my personal taste, using a Bootstrap base.
 
 ## Learning objectives
 
