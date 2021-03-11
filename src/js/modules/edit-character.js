@@ -1,4 +1,4 @@
-import { newCharacterId } from "./display-characters-cards.js";
+import { newCharacterId } from "./display-characters-cards.js"
 
 //edit character
 async function editCharacter() {
