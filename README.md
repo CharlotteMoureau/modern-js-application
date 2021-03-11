@@ -39,4 +39,4 @@ If you also find this vision of a happy future enticing read on, and reach codin
 
 ### The result:
 
-[in progress](https://charlottemoureau.github.io/modern-js-application/)
+[Deployed](https://charlottemoureau.github.io/modern-js-application/)
