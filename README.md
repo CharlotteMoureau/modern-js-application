@@ -1,6 +1,6 @@
 # modern-js-application
 
-This was a solo project carried out from the 08th to the 11th of March 2021 as part of the BeCode Liège's Junior Web Developer program. We were tasked to adapt our code from a [former project](https://github.com/CharlotteMoureau/character-manager-js) to fit the organization of a "modern Js application". I chose to redo the design to fit my personal taste, using a Bootstrap base.
+This was a solo project carried out from the 08th to the 11th of March 2021 as part of the BeCode Liège's Junior Web Developer program. We were tasked to adapt our code from a [former project](https://github.com/CharlotteMoureau/character-manager-js) to fit the organization of a "modern Js application".
 
 ## Learning objectives
 
@@ -36,6 +36,10 @@ If you also find this vision of a happy future enticing read on, and reach codin
   - part 1 - Modules and the Browser, so Bundler
   - part 2 - Package Manager
 - Day 4 - Linters and Formatters
+
+## My method:
+
+I chose to redo the design to fit my personal taste, using a Bootstrap base. I also played with the code a little, adding a function to change the pins' color and tilt the cards randomly to give it a more organic feel. I used Webpack to compile my code and used the ESlint extension from VScode.
 
 ### The result:
 
